@@ -214,7 +214,7 @@ ul{margin:0;padding:0;}
 
 /* CONTACT */
 .contact-lede{color:var(--ink-soft); max-width:520px; margin:-16px 0 32px;}
-.contact-grid{display:grid; grid-template-columns:repeat(2, 1fr); gap:16px;}
+.contact-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px;}
 .contact-card{
   display:flex; align-items:center; gap:14px;
   background:var(--bg-alt); border:1px solid var(--line); border-radius:14px;
