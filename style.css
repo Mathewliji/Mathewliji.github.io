@@ -223,6 +223,7 @@ ul{margin:0;padding:0;}
 }
 .contact-card:hover{border-color:var(--accent); transform:translateY(-2px);}
 .contact-card svg{flex-shrink:0; color:var(--accent);}
+.contact-card span{min-width:0; overflow-wrap:anywhere; word-break:break-word;}
 
 /* FOOTER */
 .site-footer{
